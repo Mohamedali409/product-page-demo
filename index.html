@@ -1,0 +1,968 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed ali 11213</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="offcanvas offcanvas-start" id="sbCanvas" tabindex="-1">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">
+          <i class="fas fa-bars me-2"></i>SHOP BY CATEGORIES
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="sb-list">
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-tshirt"></i></span
+              >Fashion<i class="fas fa-chevron-right sb-arr"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-mobile-alt"></i></span
+              >Phone &amp; Tablet<i class="fas fa-chevron-right sb-arr"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-laptop"></i></span>Laptop
+              &amp; Computer<i class="fas fa-chevron-right sb-arr"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-tv"></i></span>TV, Audio –
+              Video<i class="fas fa-chevron-right sb-arr"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-camera"></i></span>Camera
+              &amp; Photo<i class="fas fa-chevron-right sb-arr"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-couch"></i></span>Home
+              &amp; Decor<i class="fas fa-chevron-right sb-arr"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-heartbeat"></i></span
+              >Beauty &amp; Health<i class="fas fa-chevron-right sb-arr"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-gamepad"></i></span>Game
+              Accessories<i class="fas fa-chevron-right sb-arr"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="sb-ico"><i class="fas fa-car"></i></span>Autopart<i
+                class="fas fa-chevron-right sb-arr"
+              ></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <header id="hdr-top">
+      <div class="container-xl">
+        <div class="row align-items-center g-0">
+          <div class="col-auto pe-4">
+            <a href="#" class="merto-logo">M<span class="bar-e">ē</span>rto</a>
+          </div>
+          <div class="col-auto pe-4 d-none d-xl-block">
+            <div class="d-flex align-items-center gap-2 contact-blk">
+              <i
+                class="fas fa-phone-alt"
+                style="font-size: 22px; color: #111"
+              ></i>
+              <div>
+                <div class="c-label">Contact us 24/7</div>
+                <div class="c-phone">(+92) 3942 7879</div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="search-bar">
+              <select class="sb-cat d-none d-md-block">
+                <option>All Categories</option>
+                <option>Fashion</option>
+                <option>Phone &amp; Tablet</option>
+                <option>Laptop &amp; Computer</option>
+                <option>TV, Audio – Video</option>
+                <option>Camera &amp; Photo</option>
+                <option>Home &amp; Decor</option>
+                <option>Beauty &amp; Health</option>
+                <option>Game Accessories</option>
+                <option>Autopart</option>
+              </select>
+              <input
+                class="sb-input"
+                type="text"
+                placeholder="Search for products"
+              />
+              <button class="sb-btn"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+          <div class="col-auto ps-3">
+            <div class="hdr-right">
+              <div class="dropdown d-none d-lg-block">
+                <button
+                  class="lc-btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  <img src="https://flagcdn.com/us.svg" alt="US" /> English
+                  <i class="fas fa-chevron-down caret-sm"></i>
+                </button>
+                <ul
+                  class="dropdown-menu dropdown-menu-end shadow-sm py-1"
+                  style="min-width: 120px; font-size: 13px"
+                >
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">Arabic</a></li>
+                  <li><a class="dropdown-item" href="#">French</a></li>
+                </ul>
+              </div>
+              <div class="dropdown d-none d-lg-block">
+                <button
+                  class="lc-btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  USD <i class="fas fa-chevron-down caret-sm"></i>
+                </button>
+                <ul
+                  class="dropdown-menu dropdown-menu-end shadow-sm py-1"
+                  style="min-width: 80px; font-size: 13px"
+                >
+                  <li><a class="dropdown-item" href="#">USD</a></li>
+                  <li><a class="dropdown-item" href="#">EUR</a></li>
+                  <li><a class="dropdown-item" href="#">GBP</a></li>
+                </ul>
+              </div>
+              <a href="#" class="acc-link d-none d-lg-flex"
+                ><i class="far fa-user"></i> Account</a
+              >
+              <a href="#" class="icon-btn"
+                ><i class="far fa-heart"></i><span class="badge-cnt">0</span></a
+              >
+              <a href="#" class="icon-btn"
+                ><i class="fas fa-shopping-cart"></i
+                ><span class="badge-cnt">0</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav id="hdr-nav">
+      <div class="container-xl px-0">
+        <div class="d-flex align-items-center">
+          <button
+            class="btn-sbc"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#sbCanvas"
+          >
+            <i class="fas fa-bars"></i> SHOP BY CATEGORIES
+          </button>
+          <div class="nav-divider"></div>
+          <button
+            class="navbar-toggler border-0 ms-3 d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navLinks"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-lg-flex" id="navLinks">
+            <ul class="navbar-nav d-flex flex-row align-items-center">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" data-bs-toggle="dropdown"
+                  >Homepages <i class="fas fa-chevron-down nc"></i
+                ></a>
+                <ul
+                  class="dropdown-menu shadow-sm"
+                  style="font-size: 13px; min-width: 160px"
+                >
+                  <li><a class="dropdown-item" href="#">Home v1</a></li>
+                  <li><a class="dropdown-item" href="#">Home v2</a></li>
+                  <li><a class="dropdown-item" href="#">Home v3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" data-bs-toggle="dropdown"
+                  >Categories <i class="fas fa-chevron-down nc"></i
+                ></a>
+                <ul
+                  class="dropdown-menu shadow-sm"
+                  style="font-size: 13px; min-width: 160px"
+                >
+                  <li><a class="dropdown-item" href="#">Electronics</a></li>
+                  <li><a class="dropdown-item" href="#">Fashion</a></li>
+                  <li><a class="dropdown-item" href="#">Watches</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" data-bs-toggle="dropdown"
+                  >Products <i class="fas fa-chevron-down nc"></i
+                ></a>
+                <ul
+                  class="dropdown-menu shadow-sm"
+                  style="font-size: 13px; min-width: 160px"
+                >
+                  <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+                  <li><a class="dropdown-item" href="#">Best Sellers</a></li>
+                  <li><a class="dropdown-item" href="#">On Sale</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" data-bs-toggle="dropdown"
+                  >Pages <i class="fas fa-chevron-down nc"></i
+                ></a>
+                <ul
+                  class="dropdown-menu shadow-sm"
+                  style="font-size: 13px; min-width: 160px"
+                >
+                  <li><a class="dropdown-item" href="#">About Us</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+              <li class="nav-item">
+                <a class="nav-link disc-lnk" href="#"
+                  ><i class="far fa-envelope me-1" style="font-size: 13px"></i
+                  >Best Discount</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="ms-auto pe-3 d-none d-lg-block">
+            <button class="recently-btn">
+              Recently viewed <i class="fas fa-chevron-down nc"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BREADCRUMB -->
+    <div id="breadcrumb-bar">
+      <div class="container-xl">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Shop</a></li>
+            <li class="breadcrumb-item"><a href="#">Electronic</a></li>
+            <li class="breadcrumb-item">
+              <a href="#"><strong>Apple</strong></a>
+            </li>
+            <li class="breadcrumb-item active">
+              Apple Watch Series 9 GPS 45mm, Aluminum Case with Sport Band
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- PRODUCT SECTION -->
+    <section id="product-section">
+      <div class="container-xl">
+        <div class="row g-4">
+          <div class="col-auto d-none d-md-flex">
+            <div class="thumb-col" id="thumbCol">
+              <div
+                class="thumb-item active"
+                onclick="
+                  switchImg(
+                    this,
+                    'https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14-2.jpg',
+                  )
+                "
+              >
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="thumb-item"
+                onclick="
+                  switchImg(
+                    this,
+                    'https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14.jpg',
+                  )
+                "
+              >
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="thumb-item"
+                onclick="
+                  switchImg(
+                    this,
+                    'https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-15-2.jpg',
+                  )
+                "
+              >
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-15-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div
+                class="thumb-item"
+                onclick="
+                  switchImg(
+                    this,
+                    'https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-16.jpg',
+                  )
+                "
+              >
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-16.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-lg-5">
+            <div class="main-img-wrap">
+              <span class="sale-badge">-6%</span>
+              <button class="fs-btn" title="Fullscreen">
+                <i class="fas fa-expand-alt"></i>
+              </button>
+              <img
+                id="mainImg"
+                src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14-2.jpg"
+                alt="Apple Watch Series 9"
+              />
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-5">
+            <a href="#" class="prod-brand-lnk">Apple</a>
+            <h1 class="prod-title">
+              Apple Watch Series 9 GPS 45mm,<br />Aluminum Case with Sport Band
+            </h1>
+            <div class="rating-row mb-3">
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i
+                ><i class="fas fa-star"></i> <i class="fas fa-star"></i
+                ><i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="rating-num">4.50</span>
+              <span class="rev-count">(2 Reviews)</span>
+              <a href="#">Write a review</a>
+            </div>
+            <ul class="feat-checks">
+              <li><i class="fas fa-check"></i> WatchOS</li>
+              <li><i class="fas fa-check"></i> Memory 32 GB</li>
+              <li><i class="fas fa-check"></i> Battery Lithium</li>
+            </ul>
+            <div class="d-flex align-items-center flex-wrap gap-2 mb-1">
+              <div class="price-row mb-0">
+                <span class="price-now">$890</span>
+                <span class="price-was">$950</span>
+                <span class="price-save">(Save $60)</span>
+              </div>
+              <div class="countdown">
+                <div class="cd-box" id="cd-h">658</div>
+                <span class="cd-sep">:</span>
+                <div class="cd-box" id="cd-m">13</div>
+                <span class="cd-sep">:</span>
+                <div class="cd-box" id="cd-s2">07</div>
+                <span class="cd-sep">:</span>
+                <div class="cd-box" id="cd-ms">28</div>
+              </div>
+            </div>
+            <div class="mb-3"><span class="instock-badge">In stock</span></div>
+            <div class="mb-1 opt-label">
+              Color: <span id="colorLabel">White</span>
+            </div>
+            <div class="color-opts mb-1">
+              <div
+                class="color-thumb"
+                onclick="
+                  pickColor(
+                    this,
+                    'Midnight',
+                    'https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14-2.jpg',
+                  )
+                "
+              >
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14-2.jpg"
+                  alt="Midnight"
+                />
+              </div>
+              <div
+                class="color-thumb"
+                onclick="
+                  pickColor(
+                    this,
+                    'Starlight',
+                    'https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14.jpg',
+                  )
+                "
+              >
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-14.jpg"
+                  alt="Starlight"
+                />
+              </div>
+              <div
+                class="color-thumb"
+                onclick="
+                  pickColor(
+                    this,
+                    'Silver',
+                    'https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-15-2.jpg',
+                  )
+                "
+              >
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-15-2.jpg"
+                  alt="Silver"
+                />
+              </div>
+              <div
+                class="color-thumb active"
+                onclick="
+                  pickColor(
+                    this,
+                    'White',
+                    'https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-16.jpg',
+                  )
+                "
+              >
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-16.jpg"
+                  alt="White"
+                />
+              </div>
+            </div>
+            <a href="#" class="clear-link" onclick="return false;">Clear</a>
+            <div class="d-flex align-items-center gap-2 flex-wrap mt-3">
+              <div class="qty-group">
+                <button onclick="chQty(-1)">−</button>
+                <input type="text" id="qty" value="1" readonly />
+                <button onclick="chQty(1)">+</button>
+              </div>
+              <button class="btn-atc" onclick="doCart()">
+                <i class="fas fa-plus" style="font-size: 12px"></i> ADD TO CART
+              </button>
+              <button class="btn-buynow" onclick="doBuy()">BUY NOW</button>
+            </div>
+            <div class="wl-row">
+              <a href="#" onclick="return false;"
+                ><i class="far fa-heart"></i> Add to wishlist</a
+              >
+              <a href="#" onclick="return false;"
+                ><i class="fas fa-exchange-alt"></i> Add to compare</a
+              >
+            </div>
+            <div class="special-offer">
+              <div class="so-title">Special offer</div>
+              <div class="so-item">
+                <i class="far fa-credit-card"></i
+                ><span>10% off, maximum $20 when paying with PAYPAL</span>
+              </div>
+              <div class="so-item">
+                <i class="fas fa-tag"></i
+                ><span
+                  >50% off or More iPad Cases, Covers &amp; Keyboard
+                  Folios</span
+                >
+              </div>
+            </div>
+            <div class="prod-meta mt-3">
+              <div class="mb-1">SKU: <span>WHY9IOSQCW</span></div>
+              <div>
+                Categories: <a href="#">Apple</a>, <a href="#">Smartwatch</a>
+              </div>
+            </div>
+            <div class="share-row">
+              <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" title="Pinterest"
+                ><i class="fab fa-pinterest-p"></i
+              ></a>
+              <a href="#" title="X / Twitter"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" title="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="related-section">
+      <div class="container-xl">
+        <h2 class="related-title">Related products</h2>
+        <div class="rel-owl-wrap">
+          <div id="relOwl" class="owl-carousel">
+            <div class="rel-card">
+              <div class="rel-img-wrap">
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-19-1-300x300.jpg"
+                  alt="AirPods Pro"
+                />
+                <div class="rel-actions">
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-search"></i
+                    ><span class="tip">Quick view</span></a
+                  >
+                  <a
+                    href="#"
+                    class="rel-act-btn cart-btn"
+                    onclick="
+                      toast('AirPods Pro added to cart!');
+                      return false;
+                    "
+                    ><i class="fas fa-shopping-cart"></i
+                    ><span class="tip">Add to cart</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="far fa-heart"></i
+                    ><span class="tip">Wishlist</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-exchange-alt"></i
+                    ><span class="tip">Compare</span></a
+                  >
+                </div>
+              </div>
+              <div class="rel-body">
+                <a href="#" class="rel-name"
+                  >Apple AirPods Pro, Wireless Ear Buds with USB-C Charging</a
+                >
+                <div class="rel-price">$169</div>
+              </div>
+            </div>
+
+            <div class="rel-card">
+              <div class="rel-img-wrap">
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-45-300x300.jpg"
+                  alt="Gaming Laptop"
+                />
+                <div class="rel-actions">
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-search"></i
+                    ><span class="tip">Quick view</span></a
+                  >
+                  <a
+                    href="#"
+                    class="rel-act-btn cart-btn"
+                    onclick="
+                      toast('Gaming Laptop added to cart!');
+                      return false;
+                    "
+                    ><i class="fas fa-shopping-cart"></i
+                    ><span class="tip">Add to cart</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="far fa-heart"></i
+                    ><span class="tip">Wishlist</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-exchange-alt"></i
+                    ><span class="tip">Compare</span></a
+                  >
+                </div>
+              </div>
+              <div class="rel-body">
+                <a href="#" class="rel-name"
+                  >Gaming Laptop 16" FHD 165Hz, GeForce RTX 4070</a
+                >
+                <div class="rel-price">$1,922</div>
+              </div>
+            </div>
+
+            <div class="rel-card">
+              <div class="rel-img-wrap">
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-27-300x300.jpg"
+                  alt="Samsung TV"
+                />
+                <div class="rel-actions">
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-search"></i
+                    ><span class="tip">Quick view</span></a
+                  >
+                  <a
+                    href="#"
+                    class="rel-act-btn cart-btn"
+                    onclick="
+                      toast('Samsung TV added to cart!');
+                      return false;
+                    "
+                    ><i class="fas fa-shopping-cart"></i
+                    ><span class="tip">Add to cart</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="far fa-heart"></i
+                    ><span class="tip">Wishlist</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-exchange-alt"></i
+                    ><span class="tip">Compare</span></a
+                  >
+                </div>
+              </div>
+              <div class="rel-body">
+                <a href="#" class="rel-name"
+                  >SAMSUNG 32-inch Class LED Smart FHD TV 1080P</a
+                >
+                <div class="rel-price">$227</div>
+              </div>
+            </div>
+
+            <div class="rel-card">
+              <div class="rel-img-wrap">
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-37-300x300.jpg"
+                  alt="PS5 Game"
+                />
+                <div class="rel-actions">
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-search"></i
+                    ><span class="tip">Quick view</span></a
+                  >
+                  <a
+                    href="#"
+                    class="rel-act-btn cart-btn"
+                    onclick="
+                      toast('PS5 added to cart!');
+                      return false;
+                    "
+                    ><i class="fas fa-shopping-cart"></i
+                    ><span class="tip">Add to cart</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="far fa-heart"></i
+                    ><span class="tip">Wishlist</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-exchange-alt"></i
+                    ><span class="tip">Compare</span></a
+                  >
+                </div>
+              </div>
+              <div class="rel-body">
+                <a href="#" class="rel-name"
+                  >PlayStation5 Console – Final Fantasy XVI</a
+                >
+                <div class="rel-price">$49</div>
+              </div>
+            </div>
+
+            <div class="rel-card">
+              <div class="rel-img-wrap">
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-75-300x300.jpg"
+                  alt="Camera"
+                />
+                <div class="rel-actions">
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-search"></i
+                    ><span class="tip">Quick view</span></a
+                  >
+                  <a
+                    href="#"
+                    class="rel-act-btn cart-btn"
+                    onclick="
+                      toast('Camera added to cart!');
+                      return false;
+                    "
+                    ><i class="fas fa-shopping-cart"></i
+                    ><span class="tip">Add to cart</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="far fa-heart"></i
+                    ><span class="tip">Wishlist</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-exchange-alt"></i
+                    ><span class="tip">Compare</span></a
+                  >
+                </div>
+              </div>
+              <div class="rel-body">
+                <a href="#" class="rel-name"
+                  >Digital Camera 42X Optical Zoom 24mm Wide Angle</a
+                >
+                <div class="rel-price">$187</div>
+              </div>
+            </div>
+
+            <div class="rel-card">
+              <div class="rel-img-wrap">
+                <img
+                  src="https://demo.theme-sky.com/merto/wp-content/uploads/2024/05/electronic-43-300x300.jpg"
+                  alt="Apple Watch Ultra 2"
+                />
+                <div class="rel-actions">
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-search"></i
+                    ><span class="tip">Quick view</span></a
+                  >
+                  <a
+                    href="#"
+                    class="rel-act-btn cart-btn"
+                    onclick="
+                      toast('Apple Watch Ultra 2 added to cart!');
+                      return false;
+                    "
+                    ><i class="fas fa-shopping-cart"></i
+                    ><span class="tip">Add to cart</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="far fa-heart"></i
+                    ><span class="tip">Wishlist</span></a
+                  >
+                  <a href="#" class="rel-act-btn" onclick="return false;"
+                    ><i class="fas fa-exchange-alt"></i
+                    ><span class="tip">Compare</span></a
+                  >
+                </div>
+              </div>
+              <div class="rel-body">
+                <a href="#" class="rel-name"
+                  >Apple Watch Ultra 2 49mm Titanium Case</a
+                >
+                <div class="rel-price">$799</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container-xl">
+        <div class="row g-4 g-xl-5">
+          <div class="col-lg-3 col-md-6">
+            <a href="#" class="f-logo">M<span class="bar-e">ē</span>rto</a>
+            <div class="f-address">
+              <div class="d-flex gap-2 mb-1">
+                <i class="far fa-map-marker-alt mt-1"></i
+                ><span
+                  >29 SE 2nd Ave, Miami<br />Florida 33131, United States</span
+                >
+              </div>
+              <div class="d-flex gap-2 mt-2">
+                <i class="far fa-envelope mt-1"></i
+                ><span style="color: rgba(255, 255, 255, 0.55)"
+                  >info@merto.com</span
+                >
+              </div>
+            </div>
+            <div class="f-phone">(+92) 3942 7879</div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <div class="f-col-title">Shopping</div>
+            <ul class="f-links">
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Shop by Brand</a></li>
+              <li><a href="#">Offers</a></li>
+              <li><a href="#">Track order</a></li>
+              <li><a href="#">Size Guide</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <div class="f-col-title">Information</div>
+            <ul class="f-links">
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Shipping &amp; Returns</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Gift Cards</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-3 col-6">
+            <div class="f-col-title">Account</div>
+            <ul class="f-links">
+              <li><a href="#">Cart</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">My orders</a></li>
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="f-newsletter-title">
+              Let's keep<br /><em>in touch</em>
+            </div>
+            <div class="newsletter-form">
+              <input type="email" placeholder="enter your email address" />
+              <button><i class="fas fa-arrow-right"></i></button>
+            </div>
+            <div class="f-socials">
+              <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+              <a href="#" title="Twitter / X"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+              <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer-help">
+        <div class="container-xl">
+          <div class="row align-items-center g-3">
+            <div class="col-md-4">
+              <div class="help-item">
+                <div class="h-ico"><i class="fas fa-phone-alt"></i></div>
+                <div class="h-text">
+                  <strong>Didn't find what you were looking for?</strong
+                  ><a href="#">Contact Us</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 d-none d-md-flex justify-content-center">
+              <div class="help-divider"></div>
+            </div>
+            <div class="col-md-3">
+              <div class="help-item">
+                <div class="h-ico"><i class="far fa-smile"></i></div>
+                <div class="h-text">
+                  <strong>How can we help you today?</strong
+                  ><a href="#">Help Center</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 d-none d-md-flex justify-content-center">
+              <div class="help-divider"></div>
+            </div>
+            <div class="col-md-3">
+              <div class="help-item">
+                <div class="h-ico"><i class="far fa-comment-dots"></i></div>
+                <div class="h-text">
+                  <strong>We'd love to hear what you think!</strong
+                  ><a href="#">Give Feedback</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer-bottom">
+        <div class="container-xl">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <span class="f-copyright"
+                >Copyright © Merto. All Rights Reserved</span
+              >
+            </div>
+            <div
+              class="col-md-6 d-flex justify-content-md-end justify-content-start mt-2 mt-md-0"
+            >
+              <div class="f-pay-icons">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg"
+                  alt="PayPal"
+                  style="background: #fff"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/apple-pay.svg"
+                  alt="Apple Pay"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/visa.svg"
+                  alt="Visa"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/gilbarbara/logos/logos/mastercard.svg"
+                  alt="Mastercard"
+                />
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/4/40/JCB_logo.svg"
+                  alt="JCB"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      class="toast-container position-fixed bottom-0 end-0 p-3"
+      style="z-index: 9999"
+    >
+      <div
+        id="mainToast"
+        class="toast text-bg-dark border-0 align-items-center"
+        role="alert"
+      >
+        <div class="d-flex">
+          <div class="toast-body">
+            <i class="fas fa-check-circle text-success me-2"></i
+            ><span id="toastMsg">Done!</span>
+          </div>
+          <button
+            type="button"
+            class="btn-close btn-close-white me-2 m-auto"
+            data-bs-dismiss="toast"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>
